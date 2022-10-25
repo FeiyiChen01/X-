@@ -6,18 +6,15 @@ const Footer = () => (
   <footer className="mt-auto py-3 bg-light">
     <Container>
       <Col className="text-center">
-        Department of Information and Computer Sciences
+        Datawrapper is developed by <strong>Datawrapper GmbH</strong>
         {' '}
         <br />
-        University of Hawaii
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        <a href="">We are Hiring</a>
         <br />
         Honolulu, HI 96822
         {' '}
         <br />
-        <a href="http://ics-software-engineering.github.io/meteor-application-template-react">
-          Template Home
-          Page
-        </a>
       </Col>
     </Container>
   </footer>
