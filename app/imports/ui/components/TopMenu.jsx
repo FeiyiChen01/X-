@@ -6,7 +6,7 @@ const TopMenu = () => (
   <Navbar bg="light" expand="lg">
     <Container>
       <Nav className="me-auto">
-        <Image fluid rounded mx="auto" d="block" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0rUFSU7jA2arNvpY9QuUXZJQ4E9e8QdcXxw&usqp=CAU" alt="Island Snow Hawaii Logo" width={200} />
+        <Image fluid rounded mx="auto" d="block" src="./images/Logo.png" alt="Logo" width={100} />
       </Nav>
       <Nav className="justify-content-end">
         <Button variant="light"><AirplaneEnginesFill />Dashboard</Button>
